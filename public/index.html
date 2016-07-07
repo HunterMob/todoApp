@@ -1,0 +1,16 @@
+<html>
+<head>
+    <script src="./scripts/angular.min.js"></script>
+    <script src="./scripts/appController.js"></script>
+</head>
+
+<body>
+    <div ng-app='helloWorldApp'>
+        <div ng-controller="helloWorldController as controller">
+        <h1>
+            Hello {{controller.greeting}}
+        </h1>
+        </div>
+    </div>
+</body>
+</html>
